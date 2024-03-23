@@ -55,9 +55,24 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
+## Dependencies Used:
 
-You've successfully run and modified your React Native App. :partying_face:
+1. axios: For making HTTP requests.
+2. @react-navigation/native: Core navigation library for React Native.
+3. @react-navigation/stack: Stack navigator for managing navigation between screens.
+4. this three dependecies are depended and require for latest navigation setup
+   -  "react-native-gesture-handler"
+   -  "react-native-safe-area-context,
+   -  "react-native-screens"
+
+## Folder Structure
+
+1. Src: for whole application 
+2. Screens: Contains the React components for the home screen and details screen.
+3. Components: contains the React sub components for screens.
+4. Navigation: Defines the navigation stack.
+5. Constants: Defines all constants strings, colors, other files..
+6. App.tsx: Entry point of the application.
 
 ### Now what?
 
